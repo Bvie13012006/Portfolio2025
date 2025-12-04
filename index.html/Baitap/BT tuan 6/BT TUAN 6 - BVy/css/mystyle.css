@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+/*import Font*/
+@font-face {
+	src: url("../Font/Momo_Signature/MomoSignature-Regular.ttf");
+	font-family: Momo;
+}
+
+h1 {
+	color: #F58831;
+	font-family: Momo;
+	font-weight: 500;
+}
+h4 {
+	color: #49A06C;
+}
+p {text-align: justify;
+}
+/*Khu vuc Menu*/
+.menu {
+
+}
+.menu ul {
+	list-style: none; /*bo dau cham tron*/
+	padding-left: 0px; /*chữ sát viền*/
+	margin: 0px;
+	
+}
+.menu ul li {
+	float: left;
+	padding: 20px; /*khoảng cách giữa các từ*/
+}
+.menu ul li a {
+	text-decoration: none; /*bỏ gạch chân*/
+	color: #1884DA;
+	font-weight: bold;
+}
+.menu ul li a:hover {
+	color: #F58831;
+	
+}
+/*Khu vuc Frame*/
+.frame {
+	border: #31985C dashed 2px;
+	border-radius: 20px;
+	margin: 10px;
+	padding: 10px;
+}
+.footer {
+	
+}
+.footer ul {
+	list-style: none;
+	
+}
+.footer ul li {
+	color: #1884DA;
+	text-decoration: none;
+}
+.footer ul li a {
+	text-decoration: underline;
+}
+.footer ul li a img{
+	width: 30px;
+	margin: 5px;
+}

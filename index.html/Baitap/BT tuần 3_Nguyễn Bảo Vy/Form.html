@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Bài tập tuần 3</title>
+  <style>
+    body {
+      font-family: "Times New Roman", serif;
+      margin: 20px;
+    }
+
+    table {
+      border: 1.5px solid black;
+      border-collapse: collapse;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    th {
+      text-align: center;
+      font-size: 22px;
+      padding: 10px;
+      border: 1.5px solid black;
+    }
+
+    td {
+      border: 1px solid black;
+      padding: 8px;
+      vertical-align: top;
+    }
+
+    input[type="text"],
+    input[type="password"],
+    input[type="date"],
+    select,
+    textarea {
+      width: 95%;
+      padding: 4px;
+      font-family: "Times New Roman", serif;
+    }
+
+    textarea {
+      height: 60px;
+      resize: none;
+    }
+
+    .button-group {
+      text-align: center;
+      padding: 8px;
+    }
+
+    input[type="submit"],
+    input[type="reset"],
+    input[type="button"] {
+      font-family: "Times New Roman", serif;
+      padding: 5px 10px;
+      margin: 0 3px;
+    }
+
+    video {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <form>
+    <table>
+      <tr>
+        <th colspan="2">ĐĂNG KÝ THÔNG TIN</th>
+      </tr>
+
+      <tr>
+        <td>Username:</td>
+        <td><input type="text" name="username"></td>
+      </tr>
+
+      <tr>
+        <td>Password:</td>
+        <td><input type="password" name="password"></td>
+      </tr>
+
+      <tr>
+        <td>Ngày sinh:</td>
+        <td><input type="date" name="birthday"></td>
+      </tr>
+
+      <tr>
+        <td>Giới tính:</td>
+        <td>
+          <input type="radio" name="gender" value="Nam">Nam
+          <input type="radio" name="gender" value="Nữ">Nữ
+        </td>
+      </tr>
+
+      <tr>
+        <td>Language:</td>
+        <td>
+          <input type="checkbox" name="lang" value="Anh">Tiếng Anh<br>
+          <input type="checkbox" name="lang" value="Phap">Tiếng Pháp<br>
+          <input type="checkbox" name="lang" value="Nhat">Tiếng Nhật<br>
+          <input type="checkbox" name="lang" value="Trung">Tiếng Trung
+        </td>
+      </tr>
+
+      <tr>
+        <td>Nghề nghiệp:</td>
+        <td>
+          <select name="job">
+            <option>Chọn</option>
+            <option>Học sinh</option>
+            <option>Sinh viên</option>
+            <option>Nhân viên</option>
+            <option>Khác</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Thông tin khác:</td>
+        <td><textarea placeholder="Nhập thông tin ở đây"></textarea></td>
+      </tr>
+
+      <tr>
+        <td>Upload CV:</td>
+        <td><input type="file" name="cv"></td>
+      </tr>
+
+      <tr>
+        <td colspan="2" class="button-group">
+          <input type="submit" value="Đăng ký">
+          <input type="reset" value="Nhập lại">
+          <input type="button" value="Hủy">
+        </td>
+      </tr>
+    </table>
+  </form>
+
+  <iframe 
+  width="100%" 
+  height="500" 
+  src="https://youtu.be/GHjm5HAWthw?si=MazADt-GO6lpJ7pI" 
+  title="Avatar 3 Trailer" 
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen>
+</iframe>
+
+</body>
+</html>

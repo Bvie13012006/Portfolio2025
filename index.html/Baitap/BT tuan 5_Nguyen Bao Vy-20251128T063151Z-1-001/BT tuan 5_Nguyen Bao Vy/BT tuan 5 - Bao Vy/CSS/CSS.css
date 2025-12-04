@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+/*Chỉ để viết style, không chèn nội dung*/
+#container {
+	width: 1200px; 
+	height: auto;
+	margin: 0px auto;/*Canh giua man hinh nhe*/ 
+}
+#header {
+	width: 100%;
+	height: 200px;
+	background-color:aqua; 
+}
+#left {
+	width: 200px;
+	height: 600px;
+	background-color:blueviolet;
+	float: left;
+}
+#middle{
+	width: 780px;
+	margin: 0px 10px;
+	height: 600px;
+	float: left;
+}
+.khung {
+		
+		width: 300px;
+	
+		padding: 10px;
+		margin: 10px;
+		float: left;
+	    border:#F1CD36 dashed 2px;
+	    border-radius: 20px;
+	text-align: center;
+	}
+.tieude {
+	color: #782A1D;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 5px;
+	border-radius: 20px;
+}
+.hinh {
+	width: 300px;
+}
+.gia {
+	color: #782A1D;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 5px;
+	border-radius: 20px;
+}
+.chuanut {
+	width: 240px;
+	background-color: aqua;
+	float: left; /*Bao trum cac div con*/
+	margin: 0px auto;
+	text-align: center;
+}
+.nut {
+	width: 100px;
+	height: 35px;
+	background-color: #D8C491;
+	color: #fff;
+	float: left;
+	margin: 10px;
+	line-height: 35px; /*Canh giua theo chieu cao*/
+	border-top-left-radius: 25px;
+	border-bottom-right-radius: 25px; 
+	font-weight: bold;
+}
+a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+a:hover {/*Hieu ung khi re chuot den lien ket*/
+    background-color:#222629;
+	display: block; /*hien thi lien ket cho ca nut*/
+	border-top-left-radius: 25px;
+	border-bottom-right-radius: 25px; 
+}
+#right {
+	width: 200px;
+    height: 600px;
+	background-color: greenyellow;
+	float: right;
+}
+#footer{
+	width: 100%;
+	height: 100px;
+	background-color: black;
+	clear: both;
+}

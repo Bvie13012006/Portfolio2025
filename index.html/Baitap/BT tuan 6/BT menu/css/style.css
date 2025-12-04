@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container {
+	width: 1200px;
+	background-color: antiquewhite;
+	margin: 0  auto;
+}
+#menu { /*Định dạng cho div chứa menu*/
+	width: 100%;
+	height: 40px;
+}
+#menu ul { /*Định dạng cho menu*/
+	list-style: none;
+	padding-left:  0px;
+}
+#menu ul li {
+	float: left;
+	width: 200px;
+	background-color: #107D43;
+	text-align: center;
+	line-height: 40px;/*line-height=height*/
+}
+#menu ul li a {
+	text-decoration: none; 
+	color: #fff;
+	font-weight: bold;
+	display: block; /*hien thi lien ket cho ca khoi li*/
+}
+#menu ul li a:hover {
+	background-color: #F08B36;
+}
+/*Style cho ul cap 2*/
+#menu ul ul {
+	display: none; /*ẩn ul cấp 2*/
+}
+#menu ul li:hover ul {
+	display: block; /*Hien thi ul cap 2*/
+}
+/*style cho ul cap 3*/
+#menu ul ul li{
+	position: relative; /*thằng cha*/
+	background-color: aqua;
+}
+
+#menu ul li:hover ul ul {
+	display: none; /*An ul cap 3*/	
+	
+}
+#menu ul ul li:hover /*hover= dua chuot den moi hien*/ ul{
+	display: block; /*Hiển thị ul cấp 3*/
+	position: absolute; /*thằng con*/
+	top: 0px;
+	left: 200px;
+}
+
+
+
+
+
+
+
+
+
